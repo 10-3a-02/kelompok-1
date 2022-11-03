@@ -33,9 +33,7 @@ $query = $this->input->get('search_query');
     <div class="scrollbar-inner">
       <!-- Brand -->
       <div class="sidenav-header d-flex align-items-center">
-        <a class="navbar-brand" href="<?php echo base_url(); ?>">
-          <img src="<?php echo get_store_logo(); ?>" class="navbar-brand-img" alt="Logo <?php echo get_store_name(); ?>">
-        </a>
+      <a class="navbar-brand" href="<?php echo base_url(); ?>"><?php echo get_store_name(); ?></a>
         <div class="ml-auto">
           <!-- Sidenav toggler -->
           <div class="sidenav-toggler d-none d-xl-block" data-action="sidenav-unpin" data-target="#sidenav-main">
