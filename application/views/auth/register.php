@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="keywords" content="Colorlib Templates">
 
     <!-- Title Page-->
-    <title>Daftar dan Buat Akun | <?php echo get_store_name(); ?></title>
+    <title>Daftar Akun | <?php echo get_store_name(); ?></title>
 
     <!-- Icons font CSS-->
     <link href="<?php echo get_theme_uri('custom/auth/register/vendor/mdi-font/css/material-design-iconic-font.min.css'); ?>" rel="stylesheet" media="all">
@@ -42,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="card card-2">
                 <div class="card-heading"></div>
                 <div class="card-body">
-                    <h2 class="title">Buat Akun <?php echo get_store_name(); ?></h2>
+                    <h2 class="title">Daftar Akun</h2>
                     <?php echo form_open('auth/register/verify'); ?>
                         <div class="row row-space">
                             <div class="col-2">
