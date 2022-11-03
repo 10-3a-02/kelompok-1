@@ -13,9 +13,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     </head>
     <body>
-        <h1>Login ke <?php echo get_store_name(); ?></h1>
+        <h1>Login</h1>
         <div class=" w3l-login-form">
-            <h2>Login Akun</h2>
             <?php if ($flash_message) : ?>
             <div class="flash-message">
                 <?php echo $flash_message; ?>
@@ -55,7 +54,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
 
         <footer>
-            <p class="copyright-agileinfo"> &copy; 2018 <?php echo anchor(base_url(), get_store_name()); ?></p>
+            <p class="copyright-agileinfo"> &copy; <script>document.write(new Date().getFullYear());</script> <?php echo anchor(base_url(), get_store_name()); ?></p>
         </footer>
 
     </body>
