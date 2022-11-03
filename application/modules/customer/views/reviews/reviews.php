@@ -50,7 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             Belum ada review yang ditulis. Silahkan tulis baru.
                         </div>
 
-                        <?php echo anchor('customer/reviews/write', 'Tulisan review baru'); ?>
+                        <?php echo anchor('customer/reviews/write', 'Tulis Review baru'); ?>
                     </div>
                 </div>
                 <?php endif; ?>

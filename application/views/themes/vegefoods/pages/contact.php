@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container">
       <div class="row no-gutters slider-text align-items-center justify-content-center">
         <div class="col-md-9 ftco-animate text-center">
-            <p class="breadcrumbs"><span class="mr-2"><?php echo anchor(base_url(), 'Home'); ?></span> <span>Hubungi Kami</span></p>
+            <p class="breadcrumbs"><span class="mr-2"><?php echo anchor(base_url(), 'Home'); ?></span>/ <span>Hubungi Kami</span></p>
           <h1 class="mb-0 bread">Hubungi Kami</h1>
         </div>
       </div>
@@ -33,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <div class="col-md-3 d-flex">
             <div class="info bg-white p-4">
-              <p><span>Website</span> www.tokosayur22.com</p>
+              <p><span>Website</span> www.epanjayaabadi.com</p>
             </div>
         </div>
       </div>
