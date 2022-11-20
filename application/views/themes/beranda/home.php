@@ -34,7 +34,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <h3 class="heading">Gratis Ongkir</h3>
             <span>Belanja minimal Rp <?php echo format_rupiah(get_settings('min_shop_to_free_shipping_cost')); ?></span>
           </div>
-        </div>
+      </div>
       </div>
       <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
         <div class="media block-6 services mb-md-0 mb-4">
